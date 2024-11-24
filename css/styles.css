@@ -24,7 +24,6 @@ header svg {
     fill: #757575;
 }
 
-
 header a {
     color: #757575;
     text-decoration: none;
@@ -54,7 +53,7 @@ nav .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 26px;
-    margin: auto;
+    margin-right: 51px;
 }
 
 nav ul {
@@ -62,8 +61,8 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 51px;
+
 }
 
 nav li {
@@ -86,9 +85,7 @@ nav a {
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-
 }
-
 
 .heads h1 {
     width: 1048px;
@@ -113,6 +110,52 @@ nav a {
     cursor: pointer;
 }
 
+.advantages {
+    letter-spacing: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.advantages ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.advantages ul li {
+    width: 270px;
+    height: 251px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.advantages h3 {
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.advantages p {
+
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.advantages .advantages-images {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .images {
     flex-direction: column;
     justify-content: center;
@@ -126,7 +169,7 @@ nav a {
 .images h2 {
     letter-spacing: 3%;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .images ul {
@@ -134,12 +177,10 @@ nav a {
     justify-content: center;
     padding: 0;
     list-style: none;
-    margin: 0;
 }
 
 .images li {
-    margin: 10px;
-
+    margin: 31px;
 }
 
 .images img {
@@ -152,6 +193,8 @@ nav a {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    border: none;
+    border-radius: 4px;
     background-color: #F5F4FA;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -160,19 +203,19 @@ nav a {
 .team h2 {
     letter-spacing: 3%;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
-.team .team_list {
+.team .team-list {
     display: flex;
     justify-content: center;
     padding: 0;
     list-style: none;
-    margin: 0;
+
 }
 
 .team .person {
-    margin: 10px;
+    margin: 30px;
     width: 270px;
     height: 428px;
     text-align: center;
@@ -195,7 +238,7 @@ nav a {
     color: #757575;
 }
 
-.team .social_network {
+.team .social-network {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -203,7 +246,7 @@ nav a {
     margin: 0;
 }
 
-.team .social_network li a {
+.team .social-network li a {
     margin: 5px;
     width: 44px;
     height: 44px;
@@ -214,16 +257,16 @@ nav a {
     align-items: center;
 }
 
-.team .social_network li a svg {
+.team .social-network li a svg {
     fill: #AFB1B8;
 }
 
-.team .social_network li a:hover {
+.team .social-network li a:hover {
     background-color: #2196F3;
     fill: #ffffff;
 }
 
-.team .social_network li a:hover svg {
+.team .social-network li a:hover svg {
     background-color: #2196F3;
     fill: #ffffff;
 }
