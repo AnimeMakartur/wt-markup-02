@@ -48,11 +48,14 @@ nav {
     margin-right: auto;
 }
 
-nav .logo {
-    margin-right: 100px;
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 26px;
+}
+
+nav .logo {
+    margin-right: 100px;
     margin-right: 51px;
 }
 
@@ -130,7 +133,10 @@ nav a {
     margin: 30px;
 }
 
-.advantages h3 {
+h3 {
+    letter-spacing: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-align: left;
     font-weight: 700;
     text-transform: uppercase;
@@ -269,4 +275,57 @@ nav a {
 .team .social-network li a:hover svg {
     background-color: #2196F3;
     fill: #ffffff;
+}
+
+footer {
+    background-color: #2F303A;
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer address {
+    margin-top: 20px;
+    text-align: left;
+    justify-content: start;
+}
+
+footer address ul {
+    display: block;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+footer address li {
+    margin-top: 9px;
+}
+
+footer ul li {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+footer .social-network li a {
+    margin: 5px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
