@@ -102,22 +102,25 @@ button {
 
 h2 {
     color: #212121;
+    letter-spacing: auto;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 h3 {
     color: #212121;
     letter-spacing: 3%;
+    line-height: auto;
     font-size: 14px;
     text-align: left;
     font-weight: 700;
     text-transform: uppercase;
     vertical-align: top;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 .advantages p {
     line-height: 24px;
+    line-height: auto;
 }
 
 .advantages .advantages-images {
@@ -134,12 +137,6 @@ h3 {
     color: #212121;
     text-align: center;
 
-}
-
-.images h2 {
-    letter-spacing: 3%;
-    font-size: 36px;
-    font-weight: 700;
 }
 
 .images ul {
@@ -166,7 +163,7 @@ h3 {
 }
 
 .team h2 {
-    letter-spacing: 3%;
+    letter-spacing: auto;
     font-size: 36px;
     font-weight: 700;
 }
@@ -185,6 +182,7 @@ h3 {
 
 .team p {
     letter-spacing: 3%;
+    line-height: auto;
     font-size: 16px;
 }
 
