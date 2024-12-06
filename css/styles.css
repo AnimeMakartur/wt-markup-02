@@ -42,11 +42,24 @@ header a:hover svg {
     font-size: 26px;
 }
 
+.dev {
+    color: #2196F3;
+}
+
+.studio {
+    color: #212121;
+}
+
+.logo:hover .dev,
+.logo:hover .studio {
+    color: #2196F3;
+}
+
+
 nav .logo {}
 
 nav ul {
     list-style: none;
-
 }
 
 nav li {}
@@ -230,6 +243,10 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: #ffffff;
+}
+
+footer .logo .studio {
     color: #ffffff;
 }
 
